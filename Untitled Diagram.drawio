@@ -1,1 +1,144 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T07:26:55.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="_4SUtsEx6r0lrQn3aRjl" type="github"><diagram id="tkuGJ9iot2U_fskf__17">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-14T09:26:20.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_tbqsgjHtxO9lC1l-1l-" version="14.0.1" type="github">
+  <diagram id="tkuGJ9iot2U_fskf__17" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-2" value="讲师端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-5" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;单讲师&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-7" value="多讲师" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="60" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px ; line-height: 170%&quot;&gt;页面初始化时，初始化new RtcClient()，调用 joinRoom() 方法，同时调用 startStream()方法，发布自己的流，此时stream已经推到腾讯云&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-15" target="4m38FT6yS7o_aOlub_Jg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-15" value="点击开始直播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-16" value="观众端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="271.25" width="100" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-18" value="&lt;div&gt;&lt;span&gt;1、发起混流：&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; 计算每个流在观众端显示的坐标位置&lt;br&gt;&amp;nbsp; &amp;nbsp; 将混流参数传给后端进行混流&lt;br&gt;&lt;br&gt;2、将直播间状态更改为直播中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-21" value="选择课件/&lt;br&gt;共享屏幕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-22" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4m38FT6yS7o_aOlub_Jg-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="330" as="sourcePoint" />
+            <mxPoint x="260" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-21" target="4m38FT6yS7o_aOlub_Jg-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="400" as="sourcePoint" />
+            <mxPoint x="1330" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-24" value="创建屏幕流/课件流，并发布，同时再次发起混流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="563" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-28" target="4m38FT6yS7o_aOlub_Jg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-28" value="主持人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-29" value="讲师" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-30" target="4m38FT6yS7o_aOlub_Jg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-30" value="点击准备好了" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="4m38FT6yS7o_aOlub_Jg-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="683" as="sourcePoint" />
+            <mxPoint x="570" y="733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-35" target="4m38FT6yS7o_aOlub_Jg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-35" value="主持人 点击 开始直播" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="540" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-37" value="触发倒计时，调用 joinRoom() 方法，同时调用 startStream() 方法，发布自己的流，此时讲师端可以互相可见，但是此时并未更改直播间状态，因此观众端仍不可见" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-38" value="页面初始化时，初始化 new RtcClient()，如果此时只有主持人一路流，将主持人设为主画面" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="594.5" width="220" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-39" value="观众端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="535" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-41" value="选择课件/&lt;br&gt;共享屏幕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="645" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-42" value="&lt;div&gt;&lt;span&gt;1、发起混流：&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; 计算每个流在观众端显示的坐标位置&lt;br&gt;&amp;nbsp; &amp;nbsp; 将混流参数传给后端进行混流&lt;br&gt;&lt;br&gt;2、将直播间状态更改为直播中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="440" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-44" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4m38FT6yS7o_aOlub_Jg-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="580" as="sourcePoint" />
+            <mxPoint x="1270" y="648" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-45" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="645" as="sourcePoint" />
+            <mxPoint x="1540" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-46" value="创建屏幕流/课件流，并发布，同时再次发起混流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-47" value="" style="endArrow=classic;html=1;exitX=0.69;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4m38FT6yS7o_aOlub_Jg-30" target="4m38FT6yS7o_aOlub_Jg-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="710" as="sourcePoint" />
+            <mxPoint x="1280" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="679" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4m38FT6yS7o_aOlub_Jg-48" value="主持人将主画面切到当前讲师，当前讲师才能选中课件和共享屏幕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="620" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
