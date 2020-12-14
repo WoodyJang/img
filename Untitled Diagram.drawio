@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T09:43:11.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="A_uhbtnwL5kHz3K5eNGo" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T09:43:33.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rsimVCKsCOvX5mJ6evHW" version="14.0.1" type="github">
   <diagram id="tkuGJ9iot2U_fskf__17" name="Page-1">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
           <mxGeometry x="730" y="620" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N3uN0j8Jq-paqncd_b5m-1" value="点击 准备好了：&lt;br&gt;1、判断流里是否含义主持人的流，如果没有，需要设置主持人是主画面，此时在流数组中塞入一个假的主持人的流&lt;br&gt;2、讲师端除主画面之外的流排列顺序为：主持人-&amp;gt;自己-&amp;gt;主画面-&amp;gt;其他流" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="660" width="639" height="135" as="geometry" />
+          <mxGeometry x="500" y="660" width="639" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
